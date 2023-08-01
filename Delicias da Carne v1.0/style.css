@@ -1,0 +1,580 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300;1,400;1,700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    background-color: #ccb48c;
+}
+                /*HEADER*/
+header{
+  z-index: 2;
+  width: 100%;
+  background-color: #5c0c1c;
+  position: fixed;
+}
+
+header img{
+  margin-right: 500px;
+  height: 120px;
+  width: 140px;
+}
+
+.headerNav{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.listNav{
+  display: flex;
+  list-style-type: none;
+}
+
+.listNav a{
+  padding-right: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+.listNav a:visited{
+  color: white;
+}
+
+.listNav a:hover{
+  color: #9c845c;
+}
+
+
+                /*HOME*/
+
+.home{
+  height:100vh;
+  width: 100%;
+}
+
+.home img{
+  height:100vh;
+  width: 100%;
+}
+
+.textmain{
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  flex-direction: column;
+  display: flex;
+  text-align: center;
+  color:white;
+  position: absolute;
+  top:0;
+  text-shadow: 5px 10px 10px black;
+}
+
+.textmain a{
+  border: 2px solid white;
+  border-radius: 50px;
+  padding:10px 20px;
+  margin-top: 100px;
+  text-shadow: none;
+  text-decoration: none;
+  color: white;
+}
+
+.textmain p{
+  font-style: italic;
+}
+
+.textmain a:hover{
+  border-color: black;
+  color: black;
+}
+
+              /*--CORTES--*/
+
+#cortes{
+  margin-bottom: 25px;
+  background-color: #ccb48c;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#cortes h2{
+  margin-bottom: 25px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.conteiner{
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  display: flex;
+  border-radius: 15px;
+  margin: 0 auto;
+  height: 100%;
+  width: 95%;
+  background-color: #5c0c1c;
+}
+
+.card{
+  color: white;
+  margin-top: 25px;
+  margin-left: 15px;
+  margin-bottom: 50px;
+}
+
+.card h3{
+  color: white;
+  border-bottom: 1px solid white;
+  width: 360px;
+}
+
+.carne{
+  margin: 15px 15px 0 0;
+  border-radius: 15px;
+  width: 360px;
+  height: 300px;
+}
+
+.card-botao{
+  color: black;
+  padding:10px 20px;
+  background-color: #ccb48c;
+  border-radius: 50px;
+  text-decoration: none;
+}
+
+.card-botao:hover{
+  background-color: #9c845c;
+}
+
+.card p{
+  margin-bottom: 25px;
+}
+
+            /*--SOBRE--*/
+#sobre{
+  background-color:  #5c0c1c;
+  padding-top: 116px;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.sobreTxt{
+  margin-left: 200px;
+  height: 700px;
+  width: 850px;
+  background-color: #ccb48c;
+  margin-bottom: 90px;
+}
+
+.sobreTxt p{
+  line-height: 40px;
+  margin: 50px;
+}
+
+.sobreTxt h2{
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.sobreTxt2 img{
+  position: relative;
+  right: 50px;
+  height: 620px;
+  width: 800px;
+  margin-bottom: 90px;
+}
+
+            /*--CONTATO--*/
+
+#contato{
+  margin-bottom: 25px;
+  background-color: #ccb48c;
+}
+
+#contato h2{
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 25px;
+}
+
+.container-contato h3{
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.container-contato{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+/*--FORUMLÁRIO--*/
+
+form{
+  border: 1px solid rgba(156, 132, 92, 0.5);
+  border-radius: 15px;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+
+form label{
+  display: block;
+}
+
+form input{
+  padding: 0 30px 0 15px;
+  border: 1px solid rgba(156, 132, 92, 0.5);
+  border-radius: 15px;
+  height: 25px;
+  width: 300px;
+  margin-right: 20px;
+}
+
+.form-molde{
+  display: flex;
+  margin: 10px;
+}
+
+#emailForm{
+width: 620px;
+}
+
+select{
+  padding: 0 30px 0 15px;
+  border: none;
+  height: 25px;
+  width: 100%;
+  appearance: none;
+  border-radius: 15px;
+}
+
+ .selecao-icon{
+  display: flex; 
+  justify-content: center;
+  margin-top: 4px;
+  width: 345px; 
+}  
+
+.icon-select-box{
+  width: 50px;
+  position: relative;
+  top: 2px;
+  right: 30px;
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+}
+
+#iconSeletor{
+  margin: 0 auto;
+  font-size: 10px;
+  transition: all .5s;
+} 
+
+.animacao{
+  font-size: 10px;
+  transform: rotate(3.142rad);
+  transition: all .5s;
+}
+
+fieldset{
+  margin-right: 50px;
+  border: none;
+}
+
+.radio-check{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.radio-check label{
+  display: inline;
+}
+
+.radio-check input{
+  border-bottom: 1px solid rgba(156, 132, 92, 0.5);
+  border-radius: 15px;
+  height: 25px;
+  width: auto;
+}
+
+.m-contato{
+  margin-left: 50px;
+}
+
+.mensagem-form{
+  display: block;
+  margin: 10px;
+}
+
+textarea{
+  padding: 5px 5px ;
+  border: 1px solid rgba(156, 132, 92, 0.5);
+  border-radius: 15px;
+}
+
+.mensagem-form label{
+  margin-bottom: 5px;
+}
+
+.sub-button{
+  margin: 0 auto;
+  border: 1px solid rgba(156, 132, 92, 0.5);
+  border-radius: 10px;
+  width: 300px;
+  height: 25px;
+}
+.sub-button:hover{
+  background-color: #9c845c;
+}
+
+.span-required{
+  color: red;
+  display: block;
+  font-size: 11px;
+  font-weight: bolder;
+}
+
+.inativo{
+  display: none;
+  color: red;
+  font-size: 11px;
+  font-weight: bolder;
+}
+
+/*--FORUMLÁRIO--*/
+
+#mapa{
+  text-align: center;
+}
+
+#mapa iframe{
+  border: 2px solid #5c0c1c;
+  border-radius: 15px;
+
+}
+
+#mapa h3{
+  padding-bottom: 25px;
+
+}
+
+            /*--FOOTER--*/
+
+#footer{
+  margin-top: 50px;
+  padding-top: 15px;
+  text-align: center;
+  color: white;
+  background-color: #3a0610;
+}
+
+.iconFooter{
+  color: white;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.iconFooter i{
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 50px;
+}
+
+.iconFooter i:hover{
+  background-color: white;
+  color: #3a0610;
+}
+
+.list-footer{
+  margin-top: 10px;
+  list-style-type: none;
+  justify-content: space-evenly;
+  display: flex;
+}
+
+#footer a{
+  text-decoration: none;
+  color: white;
+}
+
+.list-footer a:visited{
+  color: white;
+}
+
+.copyright{
+  margin-top: 35px;
+  background-color: #1c0308;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright p{
+  margin-left: 5px;
+}
+
+/*----------------------------------------CHECKBOX--------------------------------------*/
+fieldset {
+    border: 0;
+  } 
+/*Estilo default do checkbox*/
+  .checkDefault div{
+    background-color: white;
+    content: '';
+    width: 24px;
+    height: 24px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+    margin-bottom: 3px;
+  }
+  .iconActive{
+    content: '';
+    width: 24px;
+    height: 24px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+    margin-bottom: 3px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='18px' viewBox='0 0 448 512'%3E%3C!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --%3E%3Cpath d='M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+/*Estilo intermediario do checkbox que so será aplicado no "ambos"*/
+   .intermedCheck{
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='18px' viewBox='0 0 448 512'%3E%3C!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --%3E%3Cpath d='M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center;
+    content: '';
+    width: 24px;
+    height: 24px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+    margin-bottom: 3px;
+  } 
+
+  /*---------------------------------RADIO BUTTON-------------------------------------*/
+
+  fieldset {
+    border: 0;
+  }
+  
+  /*Estilo default do radio*/
+  .radioDefault div {
+    background-color: white;
+    content: '';
+    width: 24px;
+    height: 24px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+    margin-bottom: 3px;
+  }
+  
+  .iconRadioActive div {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='25px' viewBox='0 0 512 512'%3E%3C!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --%3E%3Cpath d='M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm0-352a96 96 0 1 1 0 192 96 96 0 1 1 0-192z'/%3E%3C/svg%3E");
+    content: '';
+    width: 24px;
+    height: 24px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+    margin-bottom: 3px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  /*----------------------------------Estilo Select---------------------------------*/
+
+  .dropdown-content {
+  display: none;
+}
+
+.dropText {
+  background-color: white;
+  text-align: center;
+  cursor: pointer;
+  width: 300px;
+  border-radius: 15px;
+}
+
+.dropdownActive {
+  text-align: center;
+  border: 1px solid black;
+  position: absolute;
+  display: block;
+}
+
+.dropdown-content {
+  margin-top: 2px;
+  border-radius: 15px;
+  width: 300px;
+  text-align: center;
+  background-color: white;
+  list-style-type: none;
+}
+
+#myDropdown ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.dropdown-content li {
+  cursor: pointer;
+  border: none;
+}
+
+.dropdown-content li:hover {
+  background-color: rgb(148, 148, 148);
+}
+
+.icon-select {
+  width: 300px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+
+}
+
+#iconSeletor {
+  margin-right: 20px;
+  cursor: pointer;
+  font-size: 10px;
+  transition: all .5s;
+}
+
+.animacao {
+  cursor: pointer;
+  font-size: 10px;
+  transition: all .5s;
+  transform: rotate(3.142rad);
+}
