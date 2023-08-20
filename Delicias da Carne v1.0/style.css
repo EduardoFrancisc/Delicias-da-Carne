@@ -1,73 +1,73 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300;1,400;1,700&display=swap');
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300;1,400;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 
-body{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 25px;
-    background-color: #ccb48c;
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 25px;
+  background-color: #ccb48c;
 }
-                /*HEADER*/
-header{
+/*HEADER*/
+header {
   z-index: 2;
   width: 100%;
   background-color: #5c0c1c;
   position: fixed;
 }
 
-header img{
+header img {
   margin-right: 500px;
   height: 120px;
   width: 140px;
 }
 
-.headerNav{
+.headerNav {
   justify-content: center;
   display: flex;
   align-items: center;
 }
 
-.listNav{
+.listNav {
   display: flex;
   list-style-type: none;
 }
 
-.listNav a{
+.listNav a {
   padding-right: 50px;
   text-align: center;
   text-decoration: none;
   color: white;
 }
 
-.listNav a:visited{
+.listNav a:visited {
   color: white;
 }
 
-.listNav a:hover{
+.listNav a:hover {
   color: #9c845c;
 }
 
+/*HOME*/
 
-                /*HOME*/
-
-.home{
-  height:100vh;
+.home {
+  height: 100vh;
   width: 100%;
 }
 
-.home img{
-  height:100vh;
+.home img {
+  height: 100vh;
   width: 100%;
 }
 
-.textmain{
+.textmain {
   align-items: center;
   justify-content: center;
   height: 100vh;
@@ -75,34 +75,34 @@ header img{
   flex-direction: column;
   display: flex;
   text-align: center;
-  color:white;
+  color: white;
   position: absolute;
-  top:0;
+  top: 0;
   text-shadow: 5px 10px 10px black;
 }
 
-.textmain a{
+.textmain a {
   border: 2px solid white;
   border-radius: 50px;
-  padding:10px 20px;
+  padding: 10px 20px;
   margin-top: 100px;
   text-shadow: none;
   text-decoration: none;
   color: white;
 }
 
-.textmain p{
+.textmain p {
   font-style: italic;
 }
 
-.textmain a:hover{
+.textmain a:hover {
   border-color: black;
   color: black;
 }
 
-              /*--CORTES--*/
+/*--CORTES--*/
 
-#cortes{
+#cortes {
   margin-bottom: 25px;
   background-color: #ccb48c;
   width: 100%;
@@ -110,13 +110,13 @@ header img{
   flex-direction: column;
 }
 
-#cortes h2{
+#cortes h2 {
   margin-bottom: 25px;
   margin-top: 50px;
   text-align: center;
 }
 
-.conteiner{
+.conteiner {
   flex-wrap: wrap;
   justify-content: space-evenly;
   display: flex;
@@ -127,45 +127,45 @@ header img{
   background-color: #5c0c1c;
 }
 
-.card{
+.card {
   color: white;
   margin-top: 25px;
   margin-left: 15px;
   margin-bottom: 50px;
 }
 
-.card h3{
+.card h3 {
   color: white;
   border-bottom: 1px solid white;
   width: 360px;
 }
 
-.carne{
+.carne {
   margin: 15px 15px 0 0;
   border-radius: 15px;
   width: 360px;
   height: 300px;
 }
 
-.card-botao{
+.card-botao {
   color: black;
-  padding:10px 20px;
+  padding: 10px 20px;
   background-color: #ccb48c;
   border-radius: 50px;
   text-decoration: none;
 }
 
-.card-botao:hover{
+.card-botao:hover {
   background-color: #9c845c;
 }
 
-.card p{
+.card p {
   margin-bottom: 25px;
 }
 
-            /*--SOBRE--*/
-#sobre{
-  background-color:  #5c0c1c;
+/*--SOBRE--*/
+#sobre {
+  background-color: #5c0c1c;
   padding-top: 116px;
   height: 100vh;
   width: 100%;
@@ -173,7 +173,7 @@ header img{
   align-items: center;
 }
 
-.sobreTxt{
+.sobreTxt {
   margin-left: 200px;
   height: 700px;
   width: 850px;
@@ -181,17 +181,17 @@ header img{
   margin-bottom: 90px;
 }
 
-.sobreTxt p{
+.sobreTxt p {
   line-height: 40px;
   margin: 50px;
 }
 
-.sobreTxt h2{
+.sobreTxt h2 {
   margin-top: 50px;
   margin-left: 50px;
 }
 
-.sobreTxt2 img{
+.sobreTxt2 img {
   position: relative;
   right: 50px;
   height: 620px;
@@ -199,44 +199,43 @@ header img{
   margin-bottom: 90px;
 }
 
-            /*--CONTATO--*/
+/*--CONTATO--*/
 
-#contato{
+#contato {
   margin-bottom: 25px;
   background-color: #ccb48c;
 }
 
-#contato h2{
+#contato h2 {
   text-align: center;
   margin-bottom: 50px;
   margin-top: 25px;
 }
 
-.container-contato h3{
+.container-contato h3 {
   margin-bottom: 25px;
   text-align: center;
 }
 
-.container-contato{
+.container-contato {
   display: flex;
   justify-content: space-evenly;
 }
 
-
 /*--FORUMLÁRIO--*/
 
-form{
+form {
   border: 1px solid rgba(156, 132, 92, 0.5);
   border-radius: 15px;
   margin-bottom: 50px;
   font-size: 20px;
 }
 
-form label{
+form label {
   display: block;
 }
 
-form input{
+form input {
   padding: 0 30px 0 15px;
   border: 1px solid rgba(156, 132, 92, 0.5);
   border-radius: 15px;
@@ -245,16 +244,16 @@ form input{
   margin-right: 20px;
 }
 
-.form-molde{
+.form-molde {
   display: flex;
   margin: 10px;
 }
 
-#emailForm{
-width: 620px;
+#emailForm {
+  width: 620px;
 }
 
-select{
+select {
   padding: 0 30px 0 15px;
   border: none;
   height: 25px;
@@ -263,14 +262,14 @@ select{
   border-radius: 15px;
 }
 
- .selecao-icon{
-  display: flex; 
+.selecao-icon {
+  display: flex;
   justify-content: center;
   margin-top: 4px;
-  width: 345px; 
-}  
+  width: 345px;
+}
 
-.icon-select-box{
+.icon-select-box {
   width: 50px;
   position: relative;
   top: 2px;
@@ -280,77 +279,77 @@ select{
   font-size: 10px;
 }
 
-#iconSeletor{
+#iconSeletor {
   margin: 0 auto;
   font-size: 10px;
-  transition: all .5s;
-} 
-
-.animacao{
-  font-size: 10px;
-  transform: rotate(3.142rad);
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
-fieldset{
+.animacao {
+  font-size: 10px;
+  transform: rotate(3.142rad);
+  transition: all 0.5s;
+}
+
+fieldset {
   margin-right: 50px;
   border: none;
 }
 
-.radio-check{
+.radio-check {
   display: flex;
   justify-content: flex-start;
 }
 
-.radio-check label{
+.radio-check label {
   display: inline;
 }
 
-.radio-check input{
+.radio-check input {
   border-bottom: 1px solid rgba(156, 132, 92, 0.5);
   border-radius: 15px;
   height: 25px;
   width: auto;
 }
 
-.m-contato{
+.m-contato {
   margin-left: 50px;
 }
 
-.mensagem-form{
+.mensagem-form {
   display: block;
   margin: 10px;
 }
 
-textarea{
-  padding: 5px 5px ;
+textarea {
+  padding: 5px 5px;
   border: 1px solid rgba(156, 132, 92, 0.5);
   border-radius: 15px;
 }
 
-.mensagem-form label{
+.mensagem-form label {
   margin-bottom: 5px;
 }
 
-.sub-button{
+.sub-button {
   margin: 0 auto;
   border: 1px solid rgba(156, 132, 92, 0.5);
   border-radius: 10px;
   width: 300px;
   height: 25px;
 }
-.sub-button:hover{
+.sub-button:hover {
   background-color: #9c845c;
 }
 
-.span-required{
+.span-required {
   color: red;
   display: block;
   font-size: 11px;
   font-weight: bolder;
 }
 
-.inativo{
+.inativo {
   display: none;
   color: red;
   font-size: 11px;
@@ -359,24 +358,22 @@ textarea{
 
 /*--FORUMLÁRIO--*/
 
-#mapa{
+#mapa {
   text-align: center;
 }
 
-#mapa iframe{
+#mapa iframe {
   border: 2px solid #5c0c1c;
   border-radius: 15px;
-
 }
 
-#mapa h3{
+#mapa h3 {
   padding-bottom: 25px;
-
 }
 
-            /*--FOOTER--*/
+/*--FOOTER--*/
 
-#footer{
+#footer {
   margin-top: 50px;
   padding-top: 15px;
   text-align: center;
@@ -384,40 +381,40 @@ textarea{
   background-color: #3a0610;
 }
 
-.iconFooter{
+.iconFooter {
   color: white;
   padding: 10px;
   border-radius: 50px;
 }
 
-.iconFooter i{
+.iconFooter i {
   padding: 10px;
   border: 2px solid white;
   border-radius: 50px;
 }
 
-.iconFooter i:hover{
+.iconFooter i:hover {
   background-color: white;
   color: #3a0610;
 }
 
-.list-footer{
+.list-footer {
   margin-top: 10px;
   list-style-type: none;
   justify-content: space-evenly;
   display: flex;
 }
 
-#footer a{
+#footer a {
   text-decoration: none;
   color: white;
 }
 
-.list-footer a:visited{
+.list-footer a:visited {
   color: white;
 }
 
-.copyright{
+.copyright {
   margin-top: 35px;
   background-color: #1c0308;
   font-size: 10px;
@@ -426,95 +423,95 @@ textarea{
   align-items: center;
 }
 
-.copyright p{
+.copyright p {
   margin-left: 5px;
 }
 
 /*----------------------------------------CHECKBOX--------------------------------------*/
 fieldset {
-    border: 0;
-  } 
+  border: 0;
+}
 /*Estilo default do checkbox*/
-  .checkDefault div{
-    background-color: white;
-    content: '';
-    width: 24px;
-    height: 24px;
-    border: 1px solid gray;
-    border-radius: 4px;
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 8px;
-    margin-bottom: 3px;
-  }
-  .iconActive{
-    content: '';
-    width: 24px;
-    height: 24px;
-    border: 1px solid gray;
-    border-radius: 4px;
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 8px;
-    margin-bottom: 3px;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='18px' viewBox='0 0 448 512'%3E%3C!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --%3E%3Cpath d='M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z'/%3E%3C/svg%3E");
-    background-repeat: no-repeat;
-    background-position: center;
-  }
+.checkDefault div {
+  background-color: white;
+  content: "";
+  width: 24px;
+  height: 24px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 8px;
+  margin-bottom: 3px;
+}
+.iconActive {
+  content: "";
+  width: 24px;
+  height: 24px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 8px;
+  margin-bottom: 3px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='18px' viewBox='0 0 448 512'%3E%3C!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --%3E%3Cpath d='M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
 /*Estilo intermediario do checkbox que so será aplicado no "ambos"*/
-   .intermedCheck{
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='18px' viewBox='0 0 448 512'%3E%3C!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --%3E%3Cpath d='M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z'/%3E%3C/svg%3E");
-    background-repeat: no-repeat;
-    background-position: center;
-    content: '';
-    width: 24px;
-    height: 24px;
-    border: 1px solid gray;
-    border-radius: 4px;
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 8px;
-    margin-bottom: 3px;
-  } 
+.intermedCheck {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='18px' viewBox='0 0 448 512'%3E%3C!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --%3E%3Cpath d='M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  content: "";
+  width: 24px;
+  height: 24px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 8px;
+  margin-bottom: 3px;
+}
 
-  /*---------------------------------RADIO BUTTON-------------------------------------*/
+/*---------------------------------RADIO BUTTON-------------------------------------*/
 
-  fieldset {
-    border: 0;
-  }
-  
-  /*Estilo default do radio*/
-  .radioDefault div {
-    background-color: white;
-    content: '';
-    width: 24px;
-    height: 24px;
-    border: 1px solid gray;
-    border-radius: 50%;
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 8px;
-    margin-bottom: 3px;
-  }
-  
-  .iconRadioActive div {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='25px' viewBox='0 0 512 512'%3E%3C!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --%3E%3Cpath d='M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm0-352a96 96 0 1 1 0 192 96 96 0 1 1 0-192z'/%3E%3C/svg%3E");
-    content: '';
-    width: 24px;
-    height: 24px;
-    border: 1px solid gray;
-    border-radius: 50%;
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 8px;
-    margin-bottom: 3px;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-  /*----------------------------------Estilo Select---------------------------------*/
+fieldset {
+  border: 0;
+}
 
-  .dropdown-content {
+/*Estilo default do radio*/
+.radioDefault div {
+  background-color: white;
+  content: "";
+  width: 24px;
+  height: 24px;
+  border: 1px solid gray;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 8px;
+  margin-bottom: 3px;
+}
+
+.iconRadioActive div {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='25px' viewBox='0 0 512 512'%3E%3C!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --%3E%3Cpath d='M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm0-352a96 96 0 1 1 0 192 96 96 0 1 1 0-192z'/%3E%3C/svg%3E");
+  content: "";
+  width: 24px;
+  height: 24px;
+  border: 1px solid gray;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 8px;
+  margin-bottom: 3px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/*----------------------------------Estilo Select---------------------------------*/
+
+.dropdown-content {
   display: none;
 }
 
@@ -562,19 +559,18 @@ fieldset {
   display: flex;
   align-items: center;
   background-color: white;
-
 }
 
 #iconSeletor {
   margin-right: 20px;
   cursor: pointer;
   font-size: 10px;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
 .animacao {
   cursor: pointer;
   font-size: 10px;
-  transition: all .5s;
+  transition: all 0.5s;
   transform: rotate(3.142rad);
 }
