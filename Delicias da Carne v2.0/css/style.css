@@ -57,14 +57,22 @@
     
     .header__link:hover{
         color: #9c845c;
-    } 
+    }
+
+    .header__hamburger{
+        display: none;
+    }
+    .nav__header{
+        display: flex;
+        align-items: center;
+    }
   
     /*Main*/
     .main{
         height: 100vh;
-        background-image: url(imgs/backgroundHomeDl.jpg);
+        background-image: url(../imgs/backgroundHomeDl.jpg);
         background-size: 100% 100%;
-        /* background-attachment: fixed; parallax effect*/
+        background-attachment: fixed; /*parallax effect*/
     } 
 
     .main__text{
@@ -99,3 +107,61 @@
     } 
 
     /*SectionCortes*/
+    #cortes {
+        margin-bottom: 25px;
+        background-color: #ccb48c;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    #cortes h2 {
+        margin-bottom: 25px;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .conteiner {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        display: flex;
+        border-radius: 15px;
+        margin: 0 auto;
+        height: 100%;
+        width: 95%;
+        background-color: #5c0c1c;
+      }
+      
+      .card {
+        color: white;
+        margin-top: 25px;
+        margin-left: 15px;
+        margin-bottom: 50px;
+      }
+      
+      .card h3 {
+        color: white;
+        border-bottom: 1px solid white;
+        width: 360px;
+      }
+      
+      .carne {
+        margin: 15px 15px 0 0;
+        border-radius: 15px;
+        width: 360px;
+        height: 300px;
+      }
+      
+      .card-botao {
+        color: black;
+        padding: 10px 20px;
+        background-color: #ccb48c;
+        border-radius: 50px;
+        text-decoration: none;
+      }
+      
+      .card-botao:hover {
+        background-color: #9c845c;
+      }
+      
+      .card p {
+        margin-bottom: 25px;
+      }

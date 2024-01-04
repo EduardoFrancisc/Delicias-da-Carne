@@ -1,0 +1,22 @@
+@media screen and (max-width: 768px){
+    .header__hamburger{
+        color: white;
+        display: block;
+    }
+    .header__ul{
+        display: none;
+        height: 100%;
+        line-height: 200px;
+    }
+    .active{
+        display: block;
+    }
+    .header__nav{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .nav__header{
+        width: 100%;
+        justify-content: space-evenly;
+    }
+}
