@@ -1,7 +1,15 @@
 let lista = document.getElementById("lista");
 
-const hamburger = document.getElementById("hamburger").addEventListener("click",function () {
-    lista.classList.toggle("active")
+let hamburguer = document.getElementById("hamburguer");
+
+hamburguer.addEventListener("click",function () {
+    lista.classList.toggle("active");
+    if (lista.className == "header__ul active") {
+        hamburguer.classList.toggle("fa-xmark")
+        console.log(hamburguer.className)
+    }else{
+        hamburguer.classList.remove("fa-xmark")
+    }
 });
 
 for (let index = 1; index <= 4; index++) {
