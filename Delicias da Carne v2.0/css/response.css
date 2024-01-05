@@ -1,22 +1,71 @@
-@media screen and (max-width: 768px){
-    .header__hamburguer{
-        color: white;
-        display: block;
-    }
-    .header__ul{
-        display: none;
-        height: 100%;
-        line-height: 200px;
-    }
-    .active{
-        display: block;
-    }
-    .header__nav{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .nav__header{
-        width: 100%;
-        justify-content: space-evenly;
-    }
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 1rem;
+  }
+  .header__hamburguer {
+    color: white;
+    display: block;
+  }
+  .header__ul {
+    display: none;
+    height: 100%;
+    line-height: 200px;
+  }
+  .active {
+    display: block;
+  }
+  .header__nav {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .nav__header {
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  .sobre__banner img {
+    display: none;
+  }
+  #sobre{
+    padding: initial;
+    width: 100%;
+  }
+  .sobre__content {
+    border-radius: 15px;
+    width: auto;
+    position: initial;
+    margin: 1rem;
+    height: auto;
+  }
+
+  .sobre__content p {
+    padding: 1rem;
+    line-height: 2;
+  }
+  
 }
+
+/* @media screen and (min-width:500px){
+    .sobre__content p {
+        font-size: 1.2rem;
+        padding: 1rem;
+        line-height: 2;
+      }
+}
+
+@media screen and (min-width: 412px) {
+  #sobre {
+    padding: initial;
+    height: initial;
+    width: 100%;
+  }
+  .sobre__content {
+    width: auto;
+    position: initial;
+    margin: 1rem;
+  }
+
+  .sobre__content p {
+    padding: 1rem;
+    line-height: 2;
+  } 
+}*/

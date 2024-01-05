@@ -1,254 +1,291 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Delícias da Carne</title>
     <link rel="icon" type="image/png" href="imgs/logo.png" />
-    <link rel="stylesheet" href="css/style.css" type="text/css">
-    <link rel="stylesheet" href="css/response.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/response.css" type="text/css" />
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
     integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
     crossorigin="anonymous" referrerpolicy="no-referrer"/> -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
-</head>
-<body>
-     <!--Header-->
-  <header class="header">
-    <nav class="header__nav">
-    <div class="nav__header">
-      <a href="#"><img class="header__img" src="imgs/logo.png" alt="logo Delícias da Carne" title="logo Delícias da Carne"></a>
-      <div class="header__hamburguer">
-        <i class="fa fa-bars" id="hamburguer"></i>
-      </div>
-    </div>
-      <ul class="header__ul" id="lista">
-        <li class="header__li" id="itemList1"><a class="header__link" href="#">Home</a></li>
-        <li class="header__li" id="itemList2"><a class="header__link" href="#cortes">Carnes</a></li>
-        <li class="header__li" id="itemList3"><a class="header__link" href="#sobre">Sobre</a></li>
-        <li class="header__li" id="itemList4"><a class="header__link" href="#contato">Contato</a></li>
-      </ul>
-    </nav>
-  </header> 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!--Header-->
+    <header class="header">
+      <nav class="header__nav">
+        <div class="nav__header">
+          <a href="#"
+            ><img
+              class="header__img"
+              src="imgs/logo.png"
+              alt="logo Delícias da Carne"
+              title="logo Delícias da Carne"
+          /></a>
+          <div class="header__hamburguer">
+            <i class="fa fa-bars" id="hamburguer"></i>
+          </div>
+        </div>
+        <ul class="header__ul" id="lista">
+          <li class="header__li" id="itemList1">
+            <a class="header__link" href="#">Home</a>
+          </li>
+          <li class="header__li" id="itemList2">
+            <a class="header__link" href="#cortes">Carnes</a>
+          </li>
+          <li class="header__li" id="itemList3">
+            <a class="header__link" href="#sobre">Sobre</a>
+          </li>
+          <li class="header__li" id="itemList4">
+            <a class="header__link" href="#contato">Contato</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-  <!--Main-->
-  <main class="main">
-    <div class="main__text">
-      <h1 class="main__h1">Bem-Vindo ao Delícias da<br> Carne</h1>
-      <p class="main__slogan">Explore sabores selvagens</p>
-      <a class="main__botao" href="#cortes">Peça seu Corte já</a>
-    </div>
-  </main>
+    <!--Main-->
+    <main class="main">
+      <div class="main__text">
+        <h1 class="main__h1">
+          Bem-Vindo ao Delícias da<br />
+          Carne
+        </h1>
+        <p class="main__slogan">Explore sabores selvagens</p>
+        <a class="main__botao" href="#cortes">Peça seu Corte já</a>
+      </div>
+    </main>
 
+    <!--sectionCortes-->
+    <section id="cortes">
+      <h2>Carnes Exóticas</h2>
+      <div class="conteiner">
+        <div class="card">
+          <img
+            class="carne"
+            src="imgs/carnes/coelho.jpg"
+            alt="Coelho Inteiro"
+            title="Coelho Inteiro"
+          />
+          <h3>Coelho</h3>
+          <p>1Kg</p>
+          <p>R$99,99</p>
+          <a href="#" class="card-botao">COMPRAR</a>
+        </div>
+        <div class="card">
+          <img
+            class="carne"
+            src="imgs/carnes/coxinha-da-ra.jpg"
+            alt="Coxinha de Rã"
+            title="Coxinha de Rã"
+          />
+          <h3>Coxinha de Rã</h3>
+          <p>1Kg</p>
+          <p>R$99,99</p>
+          <a href="#" class="card-botao">COMPRAR</a>
+        </div>
+        <div class="card">
+          <img
+            class="carne"
+            src="imgs/carnes/file-da-cauda-de-jacare.jpg"
+            alt="Filé da Cauda de Jacaré"
+            title="Filé da Cauda de Jacaré"
+          />
+          <h3>Filé da Cauda de Jacaré</h3>
+          <p>1Kg</p>
+          <p>R$99,99</p>
+          <a href="#" class="card-botao">COMPRAR</a>
+        </div>
+        <div class="card">
+          <img
+            class="carne"
+            src="imgs/carnes/file-de-avestruz.jpg"
+            alt="Filé de Avestruz"
+            title="Filé de Avestruz"
+          />
+          <h3>Filé de Avestruz</h3>
+          <p>1Kg</p>
+          <p>R$99,99</p>
+          <a href="#" class="card-botao">COMPRAR</a>
+        </div>
+        <div class="card">
+          <img
+            class="carne"
+            src="imgs/carnes/lombo-de-cordeiro.jpg"
+            alt="Lombo de Cordeiro"
+            title="Lombo de Cordeiro"
+          />
+          <h3>Lombo de Cordeiro</h3>
+          <p>1Kg</p>
+          <p>R$99,99</p>
+          <a href="#" class="card-botao">COMPRAR</a>
+        </div>
+        <div class="card">
+          <img
+            class="carne"
+            src="imgs/carnes/paleta-de-cordeiro.jpg"
+            alt="Paleta de Cordeiro"
+            title="Paleta de Cordeiro"
+          />
+          <h3>Paleta de Cordeiro</h3>
+          <p>1Kg</p>
+          <p>R$99,99</p>
+          <a href="#" class="card-botao">COMPRAR</a>
+        </div>
+        <div class="card">
+          <img
+            class="carne"
+            src="imgs/carnes/carret-french-rack-de-cordeiro.jpg"
+            alt="Carré French Rack de Cordeiro"
+            title="Carré French Rack de Cordeiro"
+          />
+          <h3>Carré French Rack de Cordeiro</h3>
+          <p>1Kg</p>
+          <p>R$99,99</p>
+          <a href="#" class="card-botao">COMPRAR</a>
+        </div>
+        <div class="card">
+          <img
+            class="carne"
+            src="imgs/carnes/pernil-de-cordeiro-com-osso.jpg"
+            alt="Pernil de Cordeiro com Osso"
+            title="Pernil de Cordeiro com Osso"
+          />
+          <h3>Pernil de Cordeiro com Osso</h3>
+          <p>1Kg</p>
+          <p>R$99,99</p>
+          <a href="#" class="card-botao">COMPRAR</a>
+        </div>
+      </div>
 
-  <section id="cortes">
-    <h2>Carnes Exóticas</h2>
-    <div class="conteiner">
-      <div class="card">
-        <img
-          class="carne"
-          src="imgs/carnes/coelho.jpg"
-          alt="Coelho Inteiro"
-          title="Coelho Inteiro"
-        />
-        <h3>Coelho</h3>
-        <p>1Kg</p>
-        <p>R$99,99</p>
-        <a href="#" class="card-botao">COMPRAR</a>
+      <h2>Carnes Tradicionais</h2>
+      <div class="conteiner" id="carnesTradicionais">
+        <div class="card">
+          <img
+            class="carne"
+            src="imgs/carnes/frango-caipira.jpg"
+            alt="Frango caipira"
+            title="Frango caipira"
+          />
+          <h3>Frango caipira</h3>
+          <p>1Kg</p>
+          <p>R$99,99</p>
+          <a href="#" class="card-botao">COMPRAR</a>
+        </div>
+        <div class="card">
+          <img
+            class="carne"
+            src="https://cdn.pixabay.com/photo/2018/12/13/22/26/meat-3873890_1280.jpg"
+            alt="Contra Filé"
+            title="Contra Filé"
+          />
+          <h3>Contra Filé</h3>
+          <p>1Kg</p>
+          <p>R$99,99</p>
+          <a href="#" class="card-botao">COMPRAR</a>
+        </div>
+        <div class="card">
+          <img
+            class="carne"
+            src="https://receitinhas.com.br/wp-content/uploads/2023/01/Picanha-brasileira-fica-em-segundo-lugar-como-melhor-prato-do-mundo-1200x720.jpg"
+            alt="Picanha"
+            title="Picanha"
+          />
+          <h3>Picanha</h3>
+          <p>1Kg</p>
+          <p>R$99,99</p>
+          <a href="#" class="card-botao">COMPRAR</a>
+        </div>
+        <div class="card">
+          <img
+            class="carne"
+            src="https://cdn.shopify.com/s/files/1/0416/1942/3381/products/SrFilet-10_700x700.jpg?v=1620239410"
+            alt="Alcatra"
+            title="Alcatra"
+          />
+          <h3>Alcatra</h3>
+          <p>1Kg</p>
+          <p>R$99,99</p>
+          <a href="#" class="card-botao">COMPRAR</a>
+        </div>
+        <div class="card">
+          <img
+            class="carne"
+            src="imgs/carnes/file-de-salmao-defumado.jpg"
+            alt="Salmão Defumado"
+            title="Salmão Defumado"
+          />
+          <h3>Salmão Defumado</h3>
+          <p>1Kg</p>
+          <p>R$99,99</p>
+          <a href="#" class="card-botao">COMPRAR</a>
+        </div>
+        <div class="card">
+          <img
+            class="carne"
+            src="https://images.pexels.com/photos/14062112/pexels-photo-14062112.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt="Atum"
+            title="Atum"
+          />
+          <h3>Atum</h3>
+          <p>1Kg</p>
+          <p>R$99,99</p>
+          <a href="#" class="card-botao">COMPRAR</a>
+        </div>
+        <div class="card">
+          <img
+            class="carne"
+            src="imgs/carnes/sardinha-portuguesa.jpg"
+            alt="Sardinha"
+            title="Sardinha"
+          />
+          <h3>Sardinha</h3>
+          <p>1Kg</p>
+          <p>R$99,99</p>
+          <a href="#" class="card-botao">COMPRAR</a>
+        </div>
+        <div class="card">
+          <img
+            class="carne"
+            src="imgs/carnes/lombo-de-bacalhau-desalgado.jpg"
+            alt="Bacalhau"
+            title="Bacalhau"
+          />
+          <h3>Bacalhau</h3>
+          <p>1Kg</p>
+          <p>R$99,99</p>
+          <a href="#" class="card-botao">COMPRAR</a>
+        </div>
       </div>
-      <div class="card">
-        <img
-          class="carne"
-          src="imgs/carnes/coxinha-da-ra.jpg"
-          alt="Coxinha de Rã"
-          title="Coxinha de Rã"
-        />
-        <h3>Coxinha de Rã</h3>
-        <p>1Kg</p>
-        <p>R$99,99</p>
-        <a href="#" class="card-botao">COMPRAR</a>
-      </div>
-      <div class="card">
-        <img
-          class="carne"
-          src="imgs/carnes/file-da-cauda-de-jacare.jpg"
-          alt="Filé da Cauda de Jacaré"
-          title="Filé da Cauda de Jacaré"
-        />
-        <h3>Filé da Cauda de Jacaré</h3>
-        <p>1Kg</p>
-        <p>R$99,99</p>
-        <a href="#" class="card-botao">COMPRAR</a>
-      </div>
-      <div class="card">
-        <img
-          class="carne"
-          src="imgs/carnes/file-de-avestruz.jpg"
-          alt="Filé de Avestruz"
-          title="Filé de Avestruz"
-        />
-        <h3>Filé de Avestruz</h3>
-        <p>1Kg</p>
-        <p>R$99,99</p>
-        <a href="#" class="card-botao">COMPRAR</a>
-      </div>
-      <div class="card">
-        <img
-          class="carne"
-          src="imgs/carnes/lombo-de-cordeiro.jpg"
-          alt="Lombo de Cordeiro"
-          title="Lombo de Cordeiro"
-        />
-        <h3>Lombo de Cordeiro</h3>
-        <p>1Kg</p>
-        <p>R$99,99</p>
-        <a href="#" class="card-botao">COMPRAR</a>
-      </div>
-      <div class="card">
-        <img
-          class="carne"
-          src="imgs/carnes/paleta-de-cordeiro.jpg"
-          alt="Paleta de Cordeiro"
-          title="Paleta de Cordeiro"
-        />
-        <h3>Paleta de Cordeiro</h3>
-        <p>1Kg</p>
-        <p>R$99,99</p>
-        <a href="#" class="card-botao">COMPRAR</a>
-      </div>
-      <div class="card">
-        <img
-          class="carne"
-          src="imgs/carnes/carret-french-rack-de-cordeiro.jpg"
-          alt="Carré French Rack de Cordeiro"
-          title="Carré French Rack de Cordeiro"
-        />
-        <h3>Carré French Rack de Cordeiro</h3>
-        <p>1Kg</p>
-        <p>R$99,99</p>
-        <a href="#" class="card-botao">COMPRAR</a>
-      </div>
-      <div class="card">
-        <img
-          class="carne"
-          src="imgs/carnes/pernil-de-cordeiro-com-osso.jpg"
-          alt="Pernil de Cordeiro com Osso"
-          title="Pernil de Cordeiro com Osso"
-        />
-        <h3>Pernil de Cordeiro com Osso</h3>
-        <p>1Kg</p>
-        <p>R$99,99</p>
-        <a href="#" class="card-botao">COMPRAR</a>
-      </div>
-    </div>
+    </section>
 
-    <h2>Carnes Tradicionais</h2>
-    <div class="conteiner" id="carnesTradicionais">
-      <div class="card">
-        <img
-          class="carne"
-          src="imgs/carnes/frango-caipira.jpg"
-          alt="Frango caipira"
-          title="Frango caipira"
-        />
-        <h3>Frango caipira</h3>
-        <p>1Kg</p>
-        <p>R$99,99</p>
-        <a href="#" class="card-botao">COMPRAR</a>
-      </div>
-      <div class="card">
-        <img
-          class="carne"
-          src="https://cdn.pixabay.com/photo/2018/12/13/22/26/meat-3873890_1280.jpg"
-          alt="Contra Filé"
-          title="Contra Filé"
-        />
-        <h3>Contra Filé</h3>
-        <p>1Kg</p>
-        <p>R$99,99</p>
-        <a href="#" class="card-botao">COMPRAR</a>
-      </div>
-      <div class="card">
-        <img
-          class="carne"
-          src="https://receitinhas.com.br/wp-content/uploads/2023/01/Picanha-brasileira-fica-em-segundo-lugar-como-melhor-prato-do-mundo-1200x720.jpg"
-          alt="Picanha"
-          title="Picanha"
-        />
-        <h3>Picanha</h3>
-        <p>1Kg</p>
-        <p>R$99,99</p>
-        <a href="#" class="card-botao">COMPRAR</a>
-      </div>
-      <div class="card">
-        <img
-          class="carne"
-          src="https://cdn.shopify.com/s/files/1/0416/1942/3381/products/SrFilet-10_700x700.jpg?v=1620239410"
-          alt="Alcatra"
-          title="Alcatra"
-        />
-        <h3>Alcatra</h3>
-        <p>1Kg</p>
-        <p>R$99,99</p>
-        <a href="#" class="card-botao">COMPRAR</a>
-      </div>
-      <div class="card">
-        <img
-          class="carne"
-          src="imgs/carnes/file-de-salmao-defumado.jpg"
-          alt="Salmão Defumado"
-          title="Salmão Defumado"
-        />
-        <h3>Salmão Defumado</h3>
-        <p>1Kg</p>
-        <p>R$99,99</p>
-        <a href="#" class="card-botao">COMPRAR</a>
-      </div>
-      <div class="card">
-        <img
-          class="carne"
-          src="https://images.pexels.com/photos/14062112/pexels-photo-14062112.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-          alt="Atum"
-          title="Atum"
-        />
-        <h3>Atum</h3>
-        <p>1Kg</p>
-        <p>R$99,99</p>
-        <a href="#" class="card-botao">COMPRAR</a>
-      </div>
-      <div class="card">
-        <img
-          class="carne"
-          src="imgs/carnes/sardinha-portuguesa.jpg"
-          alt="Sardinha"
-          title="Sardinha"
-        />
-        <h3>Sardinha</h3>
-        <p>1Kg</p>
-        <p>R$99,99</p>
-        <a href="#" class="card-botao">COMPRAR</a>
-      </div>
-      <div class="card">
-        <img
-          class="carne"
-          src="imgs/carnes/lombo-de-bacalhau-desalgado.jpg"
-          alt="Bacalhau"
-          title="Bacalhau"
-        />
-        <h3>Bacalhau</h3>
-        <p>1Kg</p>
-        <p>R$99,99</p>
-        <a href="#" class="card-botao">COMPRAR</a>
-      </div>
-    </div>
-  </section>
+    <!--sectionSobre-->
+    <section id="sobre">
 
-  
-  
+      <article class="sobre__content">
+        <h2>Sobre Nós</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas iste reprehenderit possimus nemo corporis obcaecati? Perspiciatis ratione minus nemo atque omnis pariatur harum, necessitatibus ex at officiis, fugiat dolor velit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quos consequatur quidem accusamus pariatur ipsum a laudantium tempora nesciunt expedita aliquid architecto autem enim tenetur nostrum officia, rem sunt quasi? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus dicta adipisci, neque ipsam numquam blanditiis. Nesciunt error iure maiores voluptatem voluptatibus rerum, iusto quis dolorum quos consequuntur soluta eum maxime.
+        </p>
+      </article>
 
-  
+      <div class="sobre__banner">
+        <img
+          src="imgs/carnes/pexels-photo-10201880.jpeg"
+          alt="imagem de carne ilustrativa"
+          title="corte de carne"
+        />
+      </div>
+
+    </section>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
