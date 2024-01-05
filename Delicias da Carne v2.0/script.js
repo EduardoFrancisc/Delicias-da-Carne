@@ -6,7 +6,6 @@ hamburguer.addEventListener("click",function () {
     lista.classList.toggle("active");
     if (lista.className == "header__ul active") {
         hamburguer.classList.toggle("fa-xmark")
-        console.log(hamburguer.className)
     }else{
         hamburguer.classList.remove("fa-xmark")
     }
