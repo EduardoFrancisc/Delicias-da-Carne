@@ -179,37 +179,106 @@ body {
 
 /*--SOBRE--*/
 #sobre {
-    background-color: var(--main-color);
-    padding-top: 116px;
-    min-height: 100vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-  }
-  
-  .sobre__content {
-    background-color: var(--background-color);
-    min-height: 80vh;
-    width: 50vw;
-    position: relative;
-    left: 3rem;
-  }
-  .sobre__banner img {
-    position: relative;
-    right: 3rem; 
-    height: 60vh;
-    width: 40vw;
-  } 
-  
-  .sobre__content p {
-    padding: 3rem;
-    padding-right: 6rem;
-    line-height: 3rem;
-  } 
-  
-  .sobre__content h2 {
-    margin-top: 50px;
-    margin-left: 50px;
-  } 
-  
-  
+  background-color: var(--main-color);
+  padding-top: 116px;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.sobre__content {
+  background-color: var(--background-color);
+  border-radius: 15px;
+  min-height: 80vh;
+  width: 50vw;
+  position: relative;
+  left: 3rem;
+}
+.sobre__banner img {
+  border-radius: 15px;
+  position: relative;
+  right: 3rem;
+  height: 60vh;
+  width: 40vw;
+}
+
+.sobre__content p {
+  padding: 3rem;
+  padding-right: 6rem;
+  line-height: 3rem;
+}
+
+.sobre__content h2 {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+#mapa {
+  text-align: center;
+}
+
+#mapa iframe {
+  border: 2px solid #5c0c1c;
+  border-radius: 15px;
+}
+
+#mapa h3 {
+  padding-bottom: 25px;
+}
+
+/*--FOOTER--*/
+
+#footer {
+  margin-top: 50px;
+  padding-top: 15px;
+  text-align: center;
+  color: white;
+  background-color: #3a0610;
+}
+
+.iconFooter {
+  color: white;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.iconFooter i {
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 50px;
+}
+
+.iconFooter i:hover {
+  background-color: white;
+  color: #3a0610;
+}
+
+.list-footer {
+  margin-top: 10px;
+  list-style-type: none;
+  justify-content: space-evenly;
+  display: flex;
+}
+
+#footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.list-footer a:visited {
+  color: white;
+}
+
+.copyright {
+  margin-top: 35px;
+  background-color: #1c0308;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright p {
+  margin-left: 5px;
+}
